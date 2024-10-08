@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="e_commerce.Flipkarttest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- e_commerce.Flipkarttest -->
+      <class name="e_commerce.Amazon">
+        <methods>
+          <include name="Amzontest"/>
+        </methods>
+      </class> <!-- e_commerce.Amazon -->
+      <class name="e_commerce.Ajiotest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- e_commerce.Ajiotest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

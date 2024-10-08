@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Ajio]]>
+    </line>
+    <line>
+      <![CDATA[Opening amazon]]>
+    </line>
+    <line>
+      <![CDATA[Opening Flipkart]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-26T23:01:54 IST" name="Suite" finished-at="2024-09-26T23:02:14 IST" duration-ms="20163">
+    <groups>
+    </groups>
+    <test started-at="2024-09-26T23:01:54 IST" name="Test" finished-at="2024-09-26T23:02:14 IST" duration-ms="20163">
+      <class name="e_commerce.Ajiotest">
+        <test-method signature="f()[pri:0, instance:e_commerce.Ajiotest@9f116cc]" started-at="2024-09-26T23:01:54 IST" name="f" finished-at="2024-09-26T23:02:08 IST" duration-ms="13921" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Ajio]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- e_commerce.Ajiotest -->
+      <class name="e_commerce.Flipkarttest">
+        <test-method signature="f()[pri:0, instance:e_commerce.Flipkarttest@37afeb11]" started-at="2024-09-26T23:02:11 IST" name="f" finished-at="2024-09-26T23:02:14 IST" duration-ms="3245" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Flipkart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- e_commerce.Flipkarttest -->
+      <class name="e_commerce.Amazon">
+        <test-method signature="Amzontest()[pri:0, instance:e_commerce.Amazon@52bf72b5]" started-at="2024-09-26T23:02:08 IST" name="Amzontest" finished-at="2024-09-26T23:02:11 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening amazon]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Amzontest -->
+      </class> <!-- e_commerce.Amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
